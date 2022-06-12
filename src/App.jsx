@@ -2,6 +2,7 @@ import React from "react";
 import DisplayQuote from "./components/DisplayQuote";
 import axios from "axios";
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const sampleQuote = {
@@ -28,12 +29,12 @@ function App() {
   };
 
   return (
-    <>
+    <div className="app">
       <DisplayQuote quote={quote} />
       <button type="button" onClick={getQuote}>
         Get quote
       </button>
-    </>
+    </div>
   );
 }
 

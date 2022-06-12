@@ -1,0 +1,35 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.displayQuote,
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin-bottom: 0.5rem;
+}
+.quote {
+  font-size: 1em;
+  font-style: oblique 60deg;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.character {
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+button {
+  margin: 1rem;
+  background-color: yellow;
+  border: yellow;
+  border-radius: 25px;
+  padding: 1rem;
+}

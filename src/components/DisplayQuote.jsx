@@ -3,12 +3,11 @@ import React from "react";
 function DisplayQuote({ quote }) {
   return (
     quote && (
-      <div className="DisplayQuote">
+      <div className="displayQuote">
         <img src={quote.image} alt={quote.character} />
         <ul>
-          <li>Quote: {quote.quote}</li>
-          <li>By: {quote.character}</li>
-          <li>CharacterDirection: {quote.characterDirection}</li>
+          <li className="quote">{quote.quote}</li>
+          <li className="character">- {quote.character}</li>
         </ul>
       </div>
     )
